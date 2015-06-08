@@ -1,0 +1,231 @@
+/* RESETS */
+h1, h2, h3, h4, h5, h6, html, main, body, ul, li, nav {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* HELPER FUNCTIONS */
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+
+
+
+/* BASICS */
+html {
+  max-width: 960px;
+  min-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+main {
+  display: block;
+  float: left;
+  min-width: 400px;
+  width: 100%;
+  margin: 1em 0;
+}
+
+ul {
+  list-style: none;
+}
+
+
+
+/* GENERAL PAGES */
+.pageTitle {
+  padding: 0.5em;
+}
+
+
+
+/* NAVIGATION */
+nav {
+  display: block;
+  float: right;
+  width: 100%;
+  border-bottom: 1px solid grey;
+  font-size: 1.8rem;
+}
+
+nav ul {
+  float: right;
+  padding: 0 0.5em;
+  text-align: right;
+}
+
+nav li {
+  float: left;
+  margin-left: 0.5em;  
+}
+
+#title {
+  float: left;
+  padding: 0 0.5em;
+}
+
+
+
+/* FOOTER */
+footer {
+  display: block;
+  float: left;
+  width: 100%;
+  border-top: 1px solid grey;
+  font-size: 1.2rem;
+}
+
+#about_site {
+  float: right;
+  padding: 0.5em;
+}
+
+#copyright {
+  float: left;
+  padding: 0.5em;
+  color: #777;
+}
+
+
+
+/* INTRODUCTION */
+.profile_picture {
+  width: 250px;
+  height: auto;
+  display: block;
+  background-size: cover;
+  margin: 30px auto;
+  border-radius: 125px;
+  -webkit-border-radius: 125px;
+  -moz-border-radius: 125px;
+}
+
+.intro {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.intro p {
+  color: #777; 
+}
+
+
+
+/* PUBLICATIONS */
+.pub {
+  margin: 0.5em;
+}
+
+.pubImageBox {  
+  float: left;
+  position: relative;
+  width: 19%;
+  height: 150px;
+  border-right: 1px solid grey;
+}  
+
+.pubImage {  
+  width: 70%;
+  height: auto;
+  position: absolute;  
+  top: 0;  
+  bottom: 0;  
+  left: 0;  
+  right: 0;  
+  margin: auto;  
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
+.pubTextBox {
+  width: 80%;
+  height: 150px;
+  float: right;
+}
+
+.pubTextBox p {
+  margin: 0 1em;
+  color: #777;
+}
+
+p.note {
+  font-style: italic;
+}
+
+
+
+/* SOFTWARE */
+.soft {
+  margin: 1em auto;
+  width: 80%;
+  
+}
+
+.soft p {
+  margin: 0.1em 0.1em;
+  color: #777;
+}
+
+
+
+/* PUBLICATIONS AND SOFTWARE */
+p.title {
+  font-weight: bold;
+  color: #333;
+}
+
+.me {
+  font-weight: bold;
+  color: #333;
+}
+
+
+
+/* GENERAL DETAILS PAGES */
+.details {
+  margin: 1em auto;
+  width: 80%;
+}
+
+.details p {
+  margin: 0.1em;
+  color: #777;
+}
+
+
+
+/* LINKS */
+a {
+  color: #20A3FF;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #20A3FF;
+  text-decoration: underline;
+}
+
+nav a {
+  color: #333;
+}
+
+nav a:hover {
+  color: #20A3FF;
+  text-decoration: none;
+}
+
+#title a:hover {
+  color: #20A3FF;
+  text-decoration: none;
+}

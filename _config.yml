@@ -1,0 +1,10 @@
+# Site settings
+title: Alex J Cornish
+baseurl: "" 
+url: "http://alexjcornish.com"
+github_username:  alexjcornish
+
+# Build settings
+markdown: kramdown
+gems:
+  - jekyll-sitemap
