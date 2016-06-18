@@ -1,10 +1,5 @@
-# Site settings
-title: Alex J Cornish
-baseurl: "" 
-url: "http://alexjcornish.com"
-github_username:  suchgreatheights
-
 # Build settings
 markdown: kramdown
-gems:
-  - jekyll-sitemap
+
+# http://jekyllrb.com/docs/github-pages/#project-page-url-structure
+baseurl: /elbowpatched-boilerplate

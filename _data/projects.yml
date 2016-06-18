@@ -1,0 +1,12 @@
+-
+  name: DiseaseCellTypes
+  description: >
+    An R-package for identifying disease-associated cell types. DiseaseCellTypes contains implementations of two alternative methods: Gene Set Compactness (GSC) and Gene Set Overexpression (GSO). Also provided are functions for building cell type-specific interactomes and cell type-based diseasomes.
+  image: /img/pubimage_diseasecelltypes.jpg
+  url: https://github.com/alexjcornish/DiseaseCellTypes
+-
+  name: SANTA
+  description: >
+    An R-package for linking networks of molecular interactions to cellular functions and phenotypes. SANTA functionally annotates networks like standard enrichment methods annotate lists of genes.
+  image: /img/pubimage_santa.jpg
+  url: http://www.bioconductor.org/packages/release/bioc/html/SANTA.html
