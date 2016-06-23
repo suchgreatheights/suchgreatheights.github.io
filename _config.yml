@@ -8,3 +8,6 @@ github_username:  suchgreatheights
 markdown: kramdown
 gems:
   - jekyll-sitemap
+  
+# Google services
+google_analytics: UA—57512699-4

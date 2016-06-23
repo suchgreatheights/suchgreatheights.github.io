@@ -20,6 +20,11 @@ It is threatened by habitat loss.
 -->
 
 <html lang="en">
+    
+{% if jekyll.environment == 'production' %}
+  {% include analytics.html %}
+{% endif %}
+    
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
