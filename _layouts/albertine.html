@@ -20,11 +20,7 @@ It is threatened by habitat loss.
 -->
 
 <html lang="en">
-    
-{% if jekyll.environment == 'production' %}
-  {% include analytics.html %}
-{% endif %}
-    
+        
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -51,6 +47,11 @@ It is threatened by habitat loss.
     
   <!-- Favicon -->
   <link rel="shortcut icon" href="https://raw.githubusercontent.com/suchgreatheights/suchgreatheights.github.io/master/img/recreated.png">
+
+  {% if jekyll.environment == 'production' %}
+    {% include analytics.html %}
+  {% endif %}
+    
 </head>
 <body class="intro-screen">
 
