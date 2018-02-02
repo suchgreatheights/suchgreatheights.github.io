@@ -1,5 +1,12 @@
 -
   type: journal
+  title: PhenoRank: reducing study bias in gene prioritisation through simulation
+  authors: Alex J Cornish, Alessia David and Michael J E Sternberg
+  journal: Bioinformatics
+  year: 2018
+  pdf: https://doi.org/10.1093/bioinformatics/bty028
+-
+  type: journal
   title: Exploring the cellular basis of human disease through a large-scale mapping of deleterious genes to cell types
   authors: Alex J Cornish, Ioannis Filipis, Alessia David and Michael J E Sternberg
   journal: Genome Medicine
