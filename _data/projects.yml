@@ -1,4 +1,10 @@
 -
+  name: PhenoRank
+  description: >
+    PhenoRank uses PPI and phenotype data from multiple species to prioritize disease genes, whilst avoiding being biased by the number of data associated with each gene. Bias is avoided by comparing gene scores generated for the query disease against gene scores generated using simulated sets of phenotype terms. Using this simulation-based approach ensures PhenoRank is not biased towards genes with more available data and improves its performance.
+  image: /img/pubimage_phenorank.png
+  url: https://github.com/alexjcornish/PhenoRank
+-
   name: DiseaseCellTypes
   description: >
     An R-package for identifying disease-associated cell types. DiseaseCellTypes contains implementations of two alternative methods: Gene Set Compactness (GSC) and Gene Set Overexpression (GSO). Also provided are functions for building cell type-specific interactomes and cell type-based diseasomes.
