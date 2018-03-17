@@ -14,6 +14,13 @@
   pdf: https://www.nature.com/articles/s41416-018-0009-x
 -
   type: journal
+  title: Mendelian randomisation study of the relationship between vitamin D and risk of glioma
+  authors: Hannah Takahashi, Alex J Cornish, Amit Sud, Philip J Law, Ben Kinnersley et al.
+  journal_info: Scientific Reports
+  year: 2018
+  pdf: https://www.nature.com/articles/s41598-018-20844-w
+-
+  type: journal
   title: "PhenoRank: reducing study bias in gene prioritisation through simulation"
   authors: Alex J. Cornish, Alessia David and Michael J. E. Sternberg
   journal_info: Bioinformatics
