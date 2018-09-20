@@ -1,5 +1,12 @@
 -
   type: journal
+  title: "Promoter capture Hi-C-based identification of recurrent noncoding mutations in colorectal cancer."
+  authors: Orlando, G., Law, P.J., Cornish, A.J., Dobbins, S.E., Chubb, D. et al.
+  journal_info: Nature Genetics
+  year: 2018
+  pdf: https://www.nature.com/articles/s41588-018-0211-z
+-
+  type: journal
   title: "Genome-wide association analysis identifies a meningioma risk locus at 11p15.5"
   authors: Claus, E.B., Cornish, A.J., Broderick, P., Schildkraut, J.M., Dobbins, S.E. et al.
   journal_info: Neuro-Oncology
